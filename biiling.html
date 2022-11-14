@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Billing</title>
+    <script src="./calculation.js"></script>
+    <link rel="stylesheet" href="billing.css">
+</head>
+<body>
+
+<div class="topic">
+    <h1><center>BillingSystem</center></h1>
+
+</div>
+<!-- .................................................................................................... -->
+<div id="items">
+    <div id="food">
+        <center><h2>Foods</h2></center>
+        <ul type="none" id="l2">
+            <li><input type="checkbox" id="M1">HotDog: <input type="number" id="M1j"></li>
+            <li><input type="checkbox"id="M2">VegBurger: <input type="number" id="M2j"></li>
+            <li><input type="checkbox" id="M3">Pasta: <input type="number" id="M3j"></li>
+            <li><input type="checkbox" id="M4">Sandwich: <input type="number" id="M4j"></li>
+            <li><input type="checkbox" id="M5">Spagetti: <input type="number" id="M5j"></li>
+            <li><input type="checkbox" id="M6">Noodles: <input type="number" id="M6j"></li>
+            <li><input type="checkbox" id="M7">Pizza: <input type="number" id="M7j"></li>
+            <li><input type="checkbox" id="M8">SpringRoll: <input type="number" id="M8j"></li>
+        </ul>
+    </div>
+
+
+    <div id="drinks">
+        <center><h2>Drinks</h2></center>
+        
+            <ul type="none" id="l1">
+                <li><input type="checkbox" id="L1" >Sprite : <input type="number" id="L1i"></li>
+                <li><input type="checkbox"id="L2">Pepsi: <input type="number" id="L2i"></li>
+                <li><input type="checkbox" id="L3">DietCoke: <input type="number" id="L3i"></li>
+                <li><input type="checkbox" id="L4">Mojito: <input type="number" id="L4i"></li>
+                <li><input type="checkbox" id="L5">Cappuccino: <input type="number" id="L5i"></li>
+                <li><input type="checkbox" id="L6">CocaCola: <input type="number" id="L6i"></li>
+                <li><input type="checkbox" id="L7">ColdCoffee: <input type="number" id="L7i"></li>
+                <li><input type="checkbox" id="L8">Fanta: <input type="number" id="L8i"></li>
+            </ul>
+    </div>
+    
+</div>
+<!-- ................................................................................................. -->
+
+<div class="receipt">
+    <div id="receipt">
+        Reciept Ref: <p id="bill">Bill</p><p id="date"></p><br>
+        <table id="list" cellspacing="10px">
+            <tr>
+                <th>Items</th>
+                <th>Cost Of Items</th>
+            </tr>
+        </table>
+    </div>
+    
+    <div>
+        <textarea id="finals" cols="20" rows="20"></textarea>
+        <!-- <p id="finals"></p> -->
+    </div>
+</div>
+
+<!-- ..................................................................................................... -->
+<div id="button">
+    <button onclick="calc()" class="submit"><font size="5">Submit</font></button> 
+    <button onclick="clr()" class="clr"><font size="5">Clear</font></button>
+    <button onclick="print()" class="prt"><font size="5">Print</font></button>
+</div>
+    <div id="total">
+        <!-- Cost of Drinks: <input type="text"> <br>
+        Cost of Foods: <input type="text"><br>
+        Sub-Total: <input type="text"><br> -->
+        Service Charge: <input type="text" id="service"><br>
+        GST: <input type="text" id="gst"><br>
+         Total: <input id="hello" type="text"><br> 
+
+    </div>
+
+    <!-- ...................................................................................................... -->
+
+
+
+
+</body>
+</html>

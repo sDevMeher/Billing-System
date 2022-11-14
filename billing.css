@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+
+#items{
+    background-color: wheat;
+    border: 5px solid rgb(242, 181, 69);
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 60%;
+    height: 450px;
+    top: 20px;
+}
+
+
+#food{
+    display: inline-block;
+    margin-top: 20px;
+    /* width: 735px; */
+    width: auto;
+    height: 400px;
+    margin: 30px;
+    padding: 30px;
+}
+#food ul li{
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+#drinks{
+    display: inline-block;
+    /* width: 550px; */
+    width: auto;
+    height: 450px;
+    margin: 30px;
+    padding: 30px;
+}
+#drinks ul li{
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+.receipt{
+    display: inline-block;
+    background-color: blueviolet;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 40px;
+    border: 5px solid violet;
+    color: white;
+}
+
+#finals{
+   height: 150dp;
+   /* max-height: 100dp; */
+   max-height: 500px;
+   /* width: 100dp; */
+   /* max-width: 100dp; */
+   max-width: 400px;
+   
+}
+
+
+#button{
+    width: 60%;
+    height: auto;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#total{
+    display: inline-block;
+    background: rgb(148, 148, 255);
+    border: 5px solid grey;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 30%;
+    height: 130px;
+}
+
+.submit{
+    height: 100px;
+    width: 30%;
+    
+}
+
+.clr{
+    height: 100px;
+    width: 30%;
+}
+.prt{
+    height: 100px;
+    width: 30%;
+}
+
